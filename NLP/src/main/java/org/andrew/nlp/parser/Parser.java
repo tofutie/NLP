@@ -3,6 +3,8 @@ package org.andrew.nlp.parser;
 public interface Parser
 {
 	public String[] parse(String text);
+	public String[] parseSentences(String text);
+	public String[] parseTokens(String text);
 	
 	public static class Builder
 	{

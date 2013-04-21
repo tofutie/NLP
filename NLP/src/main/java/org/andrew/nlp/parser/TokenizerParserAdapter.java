@@ -11,7 +11,7 @@ import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
 import opennlp.tools.util.InvalidFormatException;
 
-public class TokenizerParserAdapter implements Parser
+public class TokenizerParserAdapter
 {
 
 	TokenizerModel model;

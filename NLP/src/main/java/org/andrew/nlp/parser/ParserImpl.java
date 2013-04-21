@@ -57,6 +57,16 @@ public class ParserImpl implements Parser
 		return null;
 	}
 
+	public String[] parseSentences(String text)
+	{
+		return sentenceDetect(text);
+	}
+
+	public String[] parseTokens(String text)
+	{
+		return tokenize(parseSentences(text));
+	}
+
 	
 
 }

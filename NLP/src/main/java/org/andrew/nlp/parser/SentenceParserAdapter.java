@@ -10,7 +10,7 @@ import opennlp.tools.sentdetect.SentenceDetectorME;
 import opennlp.tools.sentdetect.SentenceModel;
 import opennlp.tools.util.InvalidFormatException;
 
-public class SentenceParserAdapter implements Parser
+public class SentenceParserAdapter
 {
 
 	SentenceModel model;
